@@ -1,9 +1,8 @@
-# Node-ReadMe-Generator-Week-9
-# Challenge 9 Creating a Readme
+# Challenge 9 Readme template 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  creating a template for a readme
+  creating a template for future readmes
 
   ## Table of Contents (Optional)
   
@@ -13,10 +12,10 @@
   - 
   
   ## Installation
-  creating a template for a readme
+  creating a template for future readmes
   
   ## Usage
-  go to my github and download
+  download from my github
   
   ## Credits
 
@@ -28,7 +27,14 @@
   ---
   
   ## How to Contribute
-  no need to
+  message me for details
   
   ## Tests
-  run basic tests
+  message me for details
+
+  ## Contact
+  Chaser17
+
+
+  chasergilhart@gmail.com
+
