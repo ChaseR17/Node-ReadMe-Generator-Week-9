@@ -48,7 +48,11 @@ const questions = [
         validate: validateContent,
     },
     // pick a license
-
+{
+    type: "list",
+    name: "license",
+    choices:  ["BSD 2", "BSD 3", "MIT","APACHE 2.0"]
+},
     // how to contribute
     {
         type: "input",
@@ -80,11 +84,19 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) =>
+    err ? console.log(err) : console.log('Successfully created markdown!')
+  );
+}
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions);
+    inquirer.prompt(questions)
+    .then((answers) => {
+        const readmeContent = generateMarkdown(answers)
+        writeToFile("./generate/README.md", readmeContent) 
+    })
 }
 
 // Function call to initialize app
