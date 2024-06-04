@@ -8,6 +8,8 @@ const generateMarkdown = require('./utils/generateMarkdown')
 // TODO: Create an array of questions for user input
 
 // Add in the badges for the different licenses
+
+
 function validateContent(value) {
     if (value != "") {
         return true;
